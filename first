@@ -1,0 +1,19 @@
+#{dictionary(country):{dictionary(state):[list(cities)]}
+structure = {"India":{"up":["kan","luck"],"kar":['blr','mglr']}}
+
+# to print whole dictionary
+print structure
+
+#to print country only
+print structure.keys()
+
+#to print cities only
+for i in structure.values():
+   print i.values()
+
+#to print states and cities
+print structure.values()
+
+#to print states only
+for x in structure.values():
+    print i.keys()
