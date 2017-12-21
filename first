@@ -17,3 +17,5 @@ print structure.values()
 #to print states only
 for x in structure.values():
     print i.keys()
+
+print 'done'
